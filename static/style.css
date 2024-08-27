@@ -1,0 +1,20 @@
+.intro {
+    color: black;
+    font-size: 48px;
+    background-color: grey;
+}
+
+.contents {
+    color:blue;
+    font-size: 36px;
+}
+
+.info {
+    color: black;
+    font-size: 30px;
+}
+
+.wiadomosc {
+    color: black;
+    font-size: 24px;
+}

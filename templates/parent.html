@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        {% endblock %}
+    </head>
+    <body>
+        <h1 class="intro">Witaj na mojej stronie </h1>
+        <img src="https://histmag.org/grafika/articles9/monty-python.jpg" alt="main_photo" title="Python">
+        <div id="content">{% block content %} {% endblock %} </div>
+    </body>
+</html>
